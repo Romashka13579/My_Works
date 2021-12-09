@@ -2,19 +2,30 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(255, 238, 238);
-}div {
+    margin: 0vh;
+    padding: 0vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+div {
     display: block;
 }
 .title{
-    text-align: center;
-    font-size: 26px;
+    margin-top: 3.5vh;
+    margin-bottom: 1vh;
+    font-size: 4vh;
 }
 .text{
     text-align: center;
-    font-size: 10px;
+    margin-top: 0.5vh;
+    margin-bottom: 4vh;
+    font-size: 1.5vh;
 }
-span{
-    font-size: 20px;
+p{
+    margin-top: 3vh;
+    font-size: 2.9vh;
     font-weight: bold;
     text-align: left;
 }
@@ -22,93 +33,98 @@ span{
 
 
 .sprint1{
-    width: 56%;
-    height: 320px;
+    width: 113.6vh;
+    height: 44.4vh;
     background-color: white;
-    margin: 0% 20%;
-    padding: 0.001% 2% 2% 2%;
+    margin-bottom: 2.3vh ;
+    padding: 0.01vh 3.9vh 3.9vh 3.9vh;
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
+    transition: 3s;
 }
 .sprint1:hover{
-    width: 56%;
-    height: 320px;
+    width: 113.6vh;
+    height: 44.4vh;
     background-color: rgba(30, 206, 30, 0.144);
-    margin: 0% 20%;
-    padding: 0.001% 2% 2% 2%;
+    padding: 0.01vh 3.9vh 3.9vh 3.9vh;
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
+    transition: 3s;
 }
 
 
 
 .les{
     width: 23%;
-    height: 28%;
+    height: 12.432vh;
     background-color: white;
     float: left;
-    margin: 0% 2% 2% 2%;
-    padding: 0.6% 0.6%;
-    -webkit-box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15); 
-    box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15);
+    margin: 0vh 2.3vh 2.3vh 2.3vh;
+    padding: 0.69vh 0.69vh;
+    -webkit-box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15); 
+    box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15);
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
     text-align: center;
+    transition: 3s;
 }
 .les:hover{
     width: 23%;
-    height: 28%;
+    height: 12.432vh;
     background-color: rgba(30, 206, 30, 0.144);
     float: left;
-    margin: 0% 2% 2% 2%;
-    padding: 0.6% 0.6%;
-    -webkit-box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15); 
-    box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15);
+    margin: 0vh 2.3vh 2.3vh 2.3vh;
+    padding: 0.69vh 0.69vh;
+    -webkit-box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15); 
+    box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15);
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
     text-align: center;
+    transition: 3s;
 }
 .les1{
     width: 23%;
-    height: 28%;
+    height: 12.432vh;
     background-color: white;
     float: left;
-    margin: 2% 2% 2% 2%;
-    padding: 0.6% 0.6%;
-    -webkit-box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15); 
-    box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15);
+    margin: 2.3vh 2.3vh 2.3vh 2.3vh;
+    padding: 0.69vh 0.69vh;
+    -webkit-box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15); 
+    box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15);
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
     text-align: center;
+    transition: 3s;
 }
 .les1:hover{
     width: 23%;
-    height: 28%;
+    height: 12.432vh;
     background-color: rgba(30, 206, 30, 0.144);
     float: left;
-    margin: 2% 2% 2% 2%;
-    padding: 0.6% 0.6%;
-    -webkit-box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15); 
-    box-shadow: 0px 5px 25px 1px rgba(0,0,0,0.15);
+    margin: 2.3vh 2.3vh 2.3vh 2.3vh;
+    padding: 0.69vh 0.69vh;
+    -webkit-box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15); 
+    box-shadow: 0px 1vh 5vh 0.2vh rgba(0,0,0,0.15);
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
     text-align: center;
+    transition: 3s;
 }
 
 
-
+/*
 .sprint2{
     width: 56%;
     height: 180px;
@@ -164,33 +180,48 @@ span{
     border-bottom-right-radius: 4% 8%;
     text-align: center;
 }
+*/
 
 
 
 .box_in{
     width: 92%;
-    height: 26%;
+    height: 6.1vh;
     float: left;
-    margin: 0% 2% 2% 2%;
-    padding: 6% 2%;
-    border-bottom: 1px solid gray;
+    margin: 0.23vh 0.23vh 0.23vh 0.23vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.2vh solid gray;
+}
+.box_in2
+{
+    width: 92%;
+    height: 5vh;
+    margin: 0.23vh 0.23vh 0.23vh 0.23vh;
+    display: flex;
+    align-items: center;
 }
 
 
 
 .str{
-font-size: 84%;
+    font-size: 1.9vh;
 }
 
 
 
 .link{
-    width: 34%;
-    height: 20%;
+    width: 7.4vh;
+    height: 2.8vh;
     float: left;
-    margin: 2.5% 2% 2% 2%;
-    padding: 1.2% 0% 0% 0%;
-    border: 2px solid rgb(0, 238, 238);
+    margin: 2.5% 0.8vh 0.8vh 0.8vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 0.3vh solid rgb(0, 238, 238);
     border-top-left-radius: 6% 12%;
     border-top-right-radius: 6% 12%;
     border-bottom-left-radius: 6% 12%;
@@ -200,7 +231,7 @@ font-size: 84%;
 
 
 a{
-    font-size:84%;
+    font-size:1.6vh;
     font-weight: bold;
     color: black;
 }
@@ -208,7 +239,7 @@ a{
 
 
 .lscd{
-    margin: 0% 0% 10% 20%;
-    font-size: 70%;
+    margin-left: 5vh;
+    font-size: 1.55vh;
     color: gray;
 }
