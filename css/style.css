@@ -243,3 +243,42 @@ a{
     font-size: 1.55vh;
     color: gray;
 }
+
+
+
+.settings1{
+    position:absolute;
+    bottom: -16vh;
+    right: 1vh;
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 222, 222);
+    border: 0.6vh solid black;
+    border-radius: 50%;
+}
+.settings2{
+    position:absolute;
+    bottom: -16vh;
+    left: 1vh;
+    width: 7vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 222, 222);
+    border: 0.6vh solid black;
+    border-radius: 50%;
+}
+.fas.fa-code{
+    font-size: 4.5vh;
+    color: black;
+}
+.fas.fa-key{
+    font-size: 4.5vh;
+    color: black;
+}
