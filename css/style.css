@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 body{
+    background: no-repeat url(../img/tent.jpeg) center;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(255, 238, 238);
     margin: 0vh;
     padding: 0vh;
+    width: 100%;
+    height: 116vh;
+    background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    opacity: 100%;
 }
 div {
     display: block;
@@ -33,6 +38,7 @@ p{
 
 
 .sprint1{
+    opacity: 40%;
     width: 113.6vh;
     height: 44.4vh;
     background-color: white;
@@ -45,20 +51,22 @@ p{
     transition: 3s;
 }
 .sprint1:hover{
+    background-color: white;
+    opacity: 100%;
     width: 113.6vh;
     height: 44.4vh;
-    background-color: rgba(30, 206, 30, 0.144);
     padding: 0.01vh 3.9vh 3.9vh 3.9vh;
     border-top-left-radius: 4% 8%;
     border-top-right-radius: 4% 8%;
     border-bottom-left-radius: 4% 8%;
     border-bottom-right-radius: 4% 8%;
-    transition: 3s;
+    transition: 1s;
 }
 
 
 
 .les{
+    opacity: 100%;
     width: 23%;
     height: 12.432vh;
     background-color: white;
@@ -75,9 +83,10 @@ p{
     transition: 3s;
 }
 .les:hover{
+    background-color: lightskyblue;
+    opacity: 100%;
     width: 23%;
     height: 12.432vh;
-    background-color: rgba(30, 206, 30, 0.144);
     float: left;
     margin: 0vh 2.3vh 2.3vh 2.3vh;
     padding: 0.69vh 0.69vh;
@@ -107,9 +116,9 @@ p{
     transition: 3s;
 }
 .les1:hover{
+    background-color: lightskyblue;
     width: 23%;
     height: 12.432vh;
-    background-color: rgba(30, 206, 30, 0.144);
     float: left;
     margin: 2.3vh 2.3vh 2.3vh 2.3vh;
     padding: 0.69vh 0.69vh;
@@ -207,6 +216,7 @@ p{
 
 
 .str{
+    opacity: 100;
     font-size: 1.9vh;
 }
 
@@ -231,6 +241,7 @@ p{
 
 
 a{
+    opacity: 100;
     font-size:1.6vh;
     font-weight: bold;
     color: black;
@@ -239,6 +250,7 @@ a{
 
 
 .lscd{
+    opacity: 100;
     margin-left: 5vh;
     font-size: 1.55vh;
     color: gray;
@@ -250,6 +262,7 @@ a{
     position:absolute;
     bottom: -16vh;
     right: 1vh;
+    background: no-repeat url(../img/speed.jpg) center;
     width: 7vh;
     height: 7vh;
     display: flex;
@@ -261,6 +274,7 @@ a{
     border-radius: 50%;
 }
 .settings2{
+    background: no-repeat url(../img/speed.jpg) center;
     position:absolute;
     bottom: -16vh;
     left: 1vh;
